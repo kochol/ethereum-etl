@@ -32,7 +32,7 @@ setup(
     # web3.py doesn't work on 3.5.2 and less (https://github.com/ethereum/web3.py/issues/1012)
     python_requires='>=3.5.3,<3.8.0',
     install_requires=[
-        'web3==4.7.2',
+        'web3==4.9.1',
         'eth-utils==1.3.0',
         'eth-abi==1.3.0',
         # TODO: This has to be removed when "ModuleNotFoundError: No module named 'eth_utils.toolz'" is fixed at eth-abi
